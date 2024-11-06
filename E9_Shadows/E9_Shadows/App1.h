@@ -31,6 +31,7 @@ private:
 	CubeMesh* cubeMesh;
 
 	Light* light;
+	Light* light2;
 	AModel* model;
 	ShadowShader* shadowShader;
 	DepthShader* depthShader;
@@ -40,6 +41,7 @@ private:
 	RenderTexture* renderTexture;
 
 	ShadowMap* shadowMap;
+	ShadowMap* shadowMap2;
 
 	float rotation;
 };
