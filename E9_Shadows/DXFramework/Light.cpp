@@ -40,6 +40,7 @@ void Light::generateProjectionMatrix(float screenNear, float screenFar)
 void Light::generateOrthoMatrix(float screenWidth, float screenHeight, float near, float far)
 {
 	orthoMatrix = XMMatrixOrthographicLH(screenWidth, screenHeight, near, far);
+	//orthoMatrix = XMMatrixPerspectiveLH(screenWidth, screenHeight, near, far);
 }
 
 void Light::setAmbientColour(float red, float green, float blue, float alpha)

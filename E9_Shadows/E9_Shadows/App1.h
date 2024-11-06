@@ -27,13 +27,21 @@ protected:
 private:
 	TextureShader* textureShader;
 	PlaneMesh* mesh;
+	SphereMesh* sphereMesh;
+	CubeMesh* cubeMesh;
 
 	Light* light;
 	AModel* model;
 	ShadowShader* shadowShader;
 	DepthShader* depthShader;
 
+	OrthoMesh* RTTMesh;
+
+	RenderTexture* renderTexture;
+
 	ShadowMap* shadowMap;
+
+	float rotation;
 };
 
 #endif
