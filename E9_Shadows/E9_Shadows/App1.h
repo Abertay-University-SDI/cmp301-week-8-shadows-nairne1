@@ -44,6 +44,7 @@ private:
 	ShadowMap* shadowMap2;
 
 	float rotation;
+	float rotationSpeed = 0.1f;
 };
 
 #endif
